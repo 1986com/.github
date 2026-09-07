@@ -1,4 +1,4 @@
-# .github
+# 1986com/.github
 
 Status: archive. This repository is kept for reference; nothing is built,
 deployed or maintained from it, and coding agents change nothing here unless a
