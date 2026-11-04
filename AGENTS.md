@@ -1,19 +1,26 @@
 # 1986com/.github
 
-Status: archive. This repository is kept for reference; nothing is built,
-deployed or maintained from it, and coding agents change nothing here unless a
-task names this repository explicitly. `CLAUDE.md` only imports this file.
+Organisation-level repository of the GitHub org `1986com` (1986 AG, Zurich).
+Nothing is built or deployed from here. GitHub reads two things from it:
 
-<!-- project:start -->
-## Project
+- `profile/README.md`: the public organisation profile at https://github.com/1986com.
+- Default community health files (`pull_request_template.md` and any other file
+  GitHub supports in a `.github` repository). They apply to every repository of
+  the org that has no file of its own.
 
-_One paragraph: what this was, when it was active, what replaced it and where
-the live successor lives._
-<!-- project:end -->
+The members-only profile (shown to signed-in org members) lives in
+`1986com/.github-private`.
 
-## If a task does touch it
+## Rules for changes
 
-- English inside the repository; no machine paths, no personal references,
-  no em dashes.
-- One line in `README.md` about what changed and why, with the date.
-- No new dependencies, no deploys, no secrets.
+- English only. The public profile is client-facing marketing copy: change
+  it only when a task asks for it, and keep its facts in line with
+  https://1986.com.
+- No secrets, internal URLs, machine paths or personal data: this repository is
+  public.
+- Keep defaults generic. A repository-specific rule belongs in that
+  repository's `AGENTS.md`, not here.
+- Conventional Commits (`docs: ...`, `chore: ...`), small commits, push to
+  `main`.
+
+`CLAUDE.md` only imports this file.
